@@ -1,2 +1,27 @@
+header *, main *, footer * {
+  display: flex;
+  margin: 0;
+  padding: 0;
+}
 
-/*# sourceMappingURL=style.css.map *//*# sourceMappingURL=style.css.map */
+.container {
+  flex-direction: column;
+  max-width: 940px;
+  margin: 5px auto;
+}
+
+.row {
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 5px;
+  margin: 5px;
+}
+
+body {
+  background-color: black;
+  color: white;
+}
+
+h3 {
+  margin: 0 10px;
+}/*# sourceMappingURL=style.css.map */
